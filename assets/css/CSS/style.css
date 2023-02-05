@@ -1,0 +1,26 @@
+*body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.name {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 48px;
+    padding: 20px;
+}
+.navbar {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff; 
+}
+.link-group {
+    top: 0;
+    font-size:xx-large;
+    padding: 20px;
+    color: #ffffff;
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+}

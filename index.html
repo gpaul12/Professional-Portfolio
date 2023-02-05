@@ -5,39 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerry's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/CSS/style.css" />
 </head>
 <body>
     <div>
     <nav class="navbar"> 
         <h1 class="name">Gerry Paul</h1>
-        <ul class="link-group">
-            <li class="link"><a href="#">About Me</a></li>
-            <li class="link"><a href="#">Work</a></li>
-            <li class="link"><a href="#">Contact</a></li>
-            <li class="link"><a href="#">Resume</a></li>
-        </ul>
+        <div>
+            <ul class="link-group">
+                <li class="link"><a href="#about-section">About Me</a></li>
+                <li class="link"><a href="#work-section">Work</a></li>
+                <li class="link"><a href="#contact-section">Contact</a></li>
+                <li class="link"><a href="./assets/css/Docs/Gerry Paul Resume.pdf">Resume</a></li>
+            </ul>
+        </div>    
     </nav>
     </div>
-    <div class="home-section">
-        <img src="assests/images/My_Pic.jpg" class="home-img" alt="">
-        <p class="welcome">Welcome to my Portfolio</p>
+    <div class="home">
+        <div class="aboutme">
+            <img src="./assets/css/images/My_Pic.jpg" class="float-left" />
+            <h2>About Me</h2>
+            <p>
+                Enter text here....
+            </p>
+        </div>
+        <div id="work-section" class="work">
+            <h2>Work</h2>
+           <section class="work-boxes">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Druva</li>
+                <li>Egnyte</li>
+            </ul>
+           </section>
+        </div>
+        <div id="contact-section" class="contact">
+            <h2>Contact Me</h2>
+            <p>
+                (919) 345-2918 gpaul12@nc.rr.com
+            </p>
+        </div>
     </div>
-    <div>
-    <section class="about-section">
-        <p class="AboutMe">About Me</p>
-        <p class="about-info">Lorem ipsum.....</p>
-    </section>
-    </div>
-    <div>
-    <section class="work-section">
-        <p class="work">Work</p>
-        <p class="work-info">Enter your work experience here</p>
-    </section>
-    </div>
-    <footer class="contact">
-        <p class="contactme">Contact Me</p>
-        <p class="contactinfo">(919) 345-2918 gpaul12@nc.rr.com</p>
-    </footer>
+    
 </body>
 </html>
